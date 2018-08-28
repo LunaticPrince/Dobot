@@ -7,12 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Input;
 
 namespace Dobot
 {
-    public partial class Dobot : Form
+    public partial class DobotForm : Form
     {
-        public Dobot()
+        public DobotForm()
         {
             InitializeComponent();
             PnlSide.Location = new Point(PnlSide.Location.X, BtnGestion.Location.Y);
@@ -20,22 +21,23 @@ namespace Dobot
 
         private void Dobot_Load(object sender, EventArgs e)
         {
-
+            
         }
 
+        public new void Update()
+        {
+            if (Keyboard.IsKeyDown(Key.A))
+            {
+                label1.Text = "A";
+            }
+            else
+            {
+                label1.Text = "Personnages";
+            }
+        }
         private void button1_Click(object sender, EventArgs e)
         {
             PnlSide.Location = new Point(PnlSide.Location.X, BtnGestion.Location.Y);
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void BtnPersonnages_Click(object sender, EventArgs e)

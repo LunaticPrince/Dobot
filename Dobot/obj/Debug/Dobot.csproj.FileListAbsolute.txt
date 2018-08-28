@@ -6,6 +6,6 @@ F:\Programmation\Dobot\Dobot\obj\Debug\Dobot.csproj.GenerateResource.Cache
 F:\Programmation\Dobot\Dobot\obj\Debug\Dobot.csproj.CoreCompileInputs.cache
 F:\Programmation\Dobot\Dobot\obj\Debug\Dobot.exe
 F:\Programmation\Dobot\Dobot\obj\Debug\Dobot.pdb
-F:\Programmation\Dobot\Dobot\obj\Debug\Dobot.Dobot.resources
-F:\Programmation\Dobot\Dobot\obj\Debug\Dobot.csprojAssemblyReference.cache
+F:\Programmation\Dobot\Dobot\obj\Debug\Dobot.DobotForm.resources
 F:\Programmation\Dobot\Dobot\obj\Debug\Dobot.GestionControl.resources
+F:\Programmation\Dobot\Dobot\obj\Debug\Dobot.csprojAssemblyReference.cache
